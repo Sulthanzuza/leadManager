@@ -1,7 +1,7 @@
 import axios from 'axios';
 import type { Lead, ApiResponse } from '../types';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://leadmanager-9dfm.onrender.com/api';
 
 const api = axios.create({
   baseURL: API_URL,
